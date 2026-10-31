@@ -1,0 +1,284 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-31T16:39:56Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1958152392,
+  "lat": 45.5821109,
+  "lon": 4.7930166,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "name": "Sultan",
+    "ref:FR:SIRET": "89194828300017"
+  }
+},
+{
+  "type": "node",
+  "id": 2393840280,
+  "lat": 45.5223102,
+  "lon": 4.8738318,
+  "tags": {
+    "addr:postcode": "38200",
+    "amenity": "fast_food",
+    "check_date": "2024-02-01",
+    "contact:housenumber": "56",
+    "contact:street": "Cours Romestang",
+    "cuisine": "kebab",
+    "name": "Leader Kebap",
+    "opening_hours": "10:30-22:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "ref:FR:SIRET": "90787066100010",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2472145362,
+  "lat": 45.5225343,
+  "lon": 4.8718767,
+  "tags": {
+    "addr:city": "Vienne",
+    "addr:postcode": "38200",
+    "amenity": "restaurant",
+    "check_date": "2026-10-03",
+    "contact:housenumber": "59",
+    "craft": "caterer",
+    "cuisine": "turkish",
+    "indoor_seating": "yes",
+    "name": "Anatolie",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2476685765,
+  "lat": 45.5203960,
+  "lon": 4.8696152,
+  "tags": {
+    "addr:city": "Vienne",
+    "addr:postcode": "38200",
+    "amenity": "restaurant",
+    "contact:facebook": "https://www.facebook.com/SUSHI-SMILE-1508886069217838/",
+    "contact:housenumber": "4",
+    "cuisine": "sushi",
+    "name": "Sushi Smile",
+    "opening_hours": "Mo-Th 11:00-14:00,18:00-22:00; Fr-Su 18:00-22:00",
+    "phone": "+33 4 26 05 79 62",
+    "ref:FR:SIRET": "88897983800016"
+  }
+},
+{
+  "type": "node",
+  "id": 2717192589,
+  "lat": 45.5254721,
+  "lon": 4.8758267,
+  "tags": {
+    "addr:city": "Vienne",
+    "addr:postcode": "38200",
+    "addr:street": "Place du Pilori",
+    "amenity": "fast_food",
+    "check_date": "2024-11-01",
+    "check_date:diet:vegetarian": "2024-11-01",
+    "check_date:opening_hours": "2024-11-01",
+    "cuisine": "kebab",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Bergama",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "outdoor_seating": "yes",
+    "phone": "+33 4 74 53 40 16",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2719048688,
+  "lat": 45.5254901,
+  "lon": 4.8775015,
+  "tags": {
+    "addr:city": "Vienne",
+    "addr:postcode": "38200",
+    "amenity": "restaurant",
+    "check_date": "2025-04-08",
+    "contact:facebook": "https://www.facebook.com/La-Pagode-DOR-508256455926835/",
+    "contact:housenumber": "25",
+    "contact:phone": "+33 4 74 53 39 18",
+    "contact:street": "Rue de la Charité",
+    "cuisine": "asian;japanese;sushi",
+    "name": "La Pagode d'Or",
+    "opening_hours": "Tu-Su 11:30-14:00,18:30-22:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "ref:FR:SIRET": "83512872900018",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 2766751729,
+  "lat": 45.5266762,
+  "lon": 4.8753223,
+  "tags": {
+    "addr:postcode": "38200",
+    "amenity": "fast_food",
+    "contact:housenumber": "28",
+    "contact:street": "Rue Teste du Bailler",
+    "cuisine": "kebab",
+    "name": "Le Douze 27",
+    "phone": "+33 4 74 58 76 38",
+    "ref:FR:SIRET": "51344713600013",
+    "website": "http://www.vivre-vienne.fr/Le-Douze-27_2034.asp"
+  }
+},
+{
+  "type": "node",
+  "id": 3719731220,
+  "lat": 45.5251081,
+  "lon": 4.8758514,
+  "tags": {
+    "addr:postcode": "38200",
+    "amenity": "fast_food",
+    "check_date": "2025-04-08",
+    "contact:facebook": "https://www.facebook.com/Didim-1-1437551809821007/",
+    "contact:housenumber": "6",
+    "contact:street": "Place du Pilori",
+    "cuisine": "kebab",
+    "level": "0",
+    "name": "Didim 1",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+33 4 74 48 20 25",
+    "ref:FR:SIRET": "75407303900028",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8112323092,
+  "lat": 45.5224399,
+  "lon": 4.8750962,
+  "tags": {
+    "addr:floor": "0",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "check_date": "2026-01-08",
+    "contact:facebook": "https://www.facebook.com/kajirosushi/",
+    "contact:instagram": "https://www.instagram.com/kajirosushi",
+    "cuisine": "japanese;ramen;sushi;hawaiian",
+    "delivery": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "level": "0",
+    "name": "Kajiro Sushi",
+    "opening_hours": "Mo-Sa 11:30-14:00,18:30-22:00; Su 18:30-22:00",
+    "outdoor_seating": "no",
+    "phone": "+33 9 63 67 98 06",
+    "ref:FR:SIRET": "43190337600058",
+    "takeaway": "yes",
+    "website": "https://www.kajirosushi.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8721035108,
+  "lat": 45.5258013,
+  "lon": 4.8731839,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2025-06-17",
+    "contact:housenumber": "45",
+    "cuisine": "kebab;turkish",
+    "level": "0",
+    "name": "Caprice Kebab",
+    "opening_hours": "Mo-Sa 11:00-22:00; Su off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+33 4 74 31 78 37",
+    "ref:FR:SIRET": "42890015300019",
+    "takeaway": "yes",
+    "website": "https://www.vienne-condrieu.com/restauration/caprice-kebab-vienne/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9482857721,
+  "lat": 45.5055037,
+  "lon": 4.8565731,
+  "tags": {
+    "amenity": "fast_food",
+    "contact:phone": "+33 9 51 27 66 02",
+    "cuisine": "kebab",
+    "name": "Vienne Kebab",
+    "opening_hours": "Mo-Su 11:00-23:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11878591585,
+  "lat": 45.5379629,
+  "lon": 4.8722508,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date:opening_hours": "2026-10-08",
+    "contact:phone": "+33 9 54 53 91 64",
+    "cuisine": "kebab;pizza;sandwich",
+    "name": "Pizzeria Snack",
+    "opening_hours:signed": "no",
+    "ref:FR:SIRET": "92905048200017"
+  }
+},
+{
+  "type": "node",
+  "id": 13355183131,
+  "lat": 45.5818134,
+  "lon": 4.7936324,
+  "tags": {
+    "addr:floor": "0",
+    "amenity": "fast_food",
+    "check_date": "2025-12-05",
+    "cuisine": "kebab",
+    "level": "0",
+    "name": "Chasse Kebab",
+    "opening_hours": "11:00-23:00"
+  }
+},
+{
+  "type": "way",
+  "id": 159293120,
+  "center": {
+    "lat": 45.5296275,
+    "lon": 4.9124230
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "building": "yes",
+    "check_date": "2026-01-13",
+    "cuisine": "kebab",
+    "name": "Kebab",
+    "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+  }
+}
+
+  ]
+}

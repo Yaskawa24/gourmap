@@ -1,25 +1,30 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gourmap</title>
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ff5a36"><title>Gourmap – Lezzet Rehberi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/opening_hours@3.8.0/build/opening_hours+deps.min.js"></script>
-<link rel="stylesheet" href="style.css"></head><body>
-<header><h1>🍽️ Gourmap</h1><select id="lang"><option value="tr">TR</option><option value="fr">FR</option><option value="en">EN</option></select></header>
+<link rel="stylesheet" href="style.css?v=2"></head><body>
+<header class="hero"><div class="top"><div class="logo">🍽️ <b>Gour</b>map</div>
+<select id="lang" aria-label="lang"><option value="tr">🇹🇷 TR</option><option value="fr">🇫🇷 FR</option><option value="en">🇬🇧 EN</option></select></div>
+<p class="tagline" data-t="tagline"></p>
+<div class="searchbar"><span>📍</span><input id="city" value="Vienne" autocomplete="off"><button id="geo" title="GPS">🎯</button></div>
+<div id="places"></div></header>
 <main>
-<section id="form">
-<label data-t="loc"></label><div class="row"><input id="city" value="Vienne"><button id="geo">📍</button></div>
-<div id="places"></div>
-<label><span data-t="radius"></span>: <b id="rv">10</b> km</label><input type="range" id="radius" min="1" max="30" value="10">
-<label data-t="likes"></label><div id="cuisines" class="chips"></div>
-<details><summary data-t="filters"></summary>
-<label data-t="dislikes"></label><div id="nocuisines" class="chips"></div>
-<label data-t="diet"></label><select id="diet"><option value="">—</option><option value="halal">Helal</option><option value="vegetarian">Vejetaryen</option><option value="vegan">Vegan</option><option value="gluten_free">Glutensiz</option></select>
-<label data-t="budget"></label><select id="budget"><option value="">—</option><option>€</option><option>€€</option><option>€€€</option></select>
-<label><input type="checkbox" id="opennow"> <span data-t="opennow"></span></label>
-<label data-t="max"></label><input type="number" id="max" value="10" min="1" max="50">
+<section class="panel">
+<div class="h"><span data-t="likes"></span><small data-t="likeshint"></small></div>
+<div id="cuisines" class="chips"></div>
+<div class="radius"><span data-t="radius"></span><b><span id="rv">10</span> km</b></div><input type="range" id="radius" min="1" max="30" value="10">
+<details class="filters"><summary>⚙️ <span data-t="filters"></span></summary>
+<div class="h" data-t="dislikes"></div><div id="nocuisines" class="chips small"></div>
+<div class="grid"><label><span data-t="diet"></span><select id="diet"><option value="">—</option><option value="halal">☪️ Helal</option><option value="vegetarian">🥗 Vejetaryen</option><option value="vegan">🌱 Vegan</option><option value="gluten_free">🌾 Glutensiz</option></select></label>
+<label><span data-t="budget"></span><select id="budget"><option value="">—</option><option>€</option><option>€€</option><option>€€€</option></select></label>
+<label><span data-t="max"></span><input type="number" id="max" value="10" min="1" max="50"></label></div>
+<label class="switch"><input type="checkbox" id="opennow"> <span data-t="opennow"></span></label>
 </details>
-<button id="go" class="primary" data-t="search"></button>
+<button id="go" class="primary">🔍 <span data-t="search"></span></button>
 </section>
-<div id="status"></div><div id="map"></div><div id="results"></div>
-<p class="foot">© OpenStreetMap contributors · <span data-t="foot"></span></p>
-</main><script src="app.js"></script></body></html>
+<div id="status"></div>
+<div id="map"></div>
+<div id="results"></div>
+<p class="foot">Veri © OpenStreetMap contributors · <span data-t="foot"></span></p>
+</main><script src="app.js?v=2"></script></body></html>
